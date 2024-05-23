@@ -1,0 +1,17 @@
+# Ignore all files in the data directory
+data/*
+
+# But do not ignore the data directory itself
+!data/
+
+# Do not ignore .gitkeep files
+!data/.gitkeep
+
+# Ignore all files in the results directory
+results/*
+
+# But do not ignore the results directory itself
+!results/
+
+# Do not ignore .gitkeep files
+!results/.gitkeep
