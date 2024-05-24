@@ -14,7 +14,7 @@ This project implements a Probabilistic Latent Semantic Analysis (PLSA) algorith
 First, clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/chihwhikuo/Probabilistic-Latent-Semantic-Analysis.git
+git clone --recursive https://github.com/chihwhikuo/Probabilistic-Latent-Semantic-Analysis.git
 cd Probabilistic-Latent-Semantic-Analysis
 ```
 
@@ -52,6 +52,4 @@ After running the executable, you can exit the Docker container by typing:
 
 ```sh
 exit
-```
-
 ```

@@ -15,7 +15,7 @@ add_subdirectory(IR-General-Library)
 file(GLOB SOURCES "src/*.cpp")
 
 # Add executable with all found .cpp files
-add_executable(PLSA ${SOURCES})
+add_executable(plsa ${SOURCES})
 
 # Link the header-only library
-target_link_libraries(PLSA IRGeneralLibrary)
+target_link_libraries(plsa IRGeneralLibrary)
